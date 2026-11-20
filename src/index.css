@@ -10,3 +10,64 @@
 .bi {
   margin-right: 10px;
 }
+.story {
+   height:80px;
+   padding:10px;
+}
+.dp {
+  height: 30px;
+  width: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  
+}
+.image {
+  height: 600px;
+  width:800px
+}
+.down {
+
+  font-size: 30px;
+}
+.like {
+  font-size: 25px;
+}
+.caption {
+  font-size: 30px;
+}
+.swt {
+
+  width: 270px;
+}
+.suggestion .dp {
+
+  margin-top: 0px;
+}
+.storydp {
+  width: 40px;
+}
+.story-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(
+    45deg,
+    #ffdc80,
+    #fcaf45,
+    #f77737,
+    #e1306c,
+    #c13584,
+    #833ab4,
+    #5851db
+  );
+}
+
+.story-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}

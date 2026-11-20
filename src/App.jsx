@@ -1,5 +1,9 @@
 import React from "react";
 import Sidebar from "./Sidebar";
+import Feed from "./Feed";
+import Suggestion from "./Suggestion";
+
+
 function App() {
   return (
     <div className="d-flex vh-100">
@@ -7,11 +11,12 @@ function App() {
         <Sidebar />
       </div>
 
-      <div className="w-50 bg-info">Feed</div>
+      <div className="w-50 "><Feed/></div>
 
-      <div className="w-30">Suggestion</div>
+      <div className="w-30"><Suggestion/></div>
     </div>
   );
 }
+
 
 export default App;
